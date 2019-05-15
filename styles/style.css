@@ -62,7 +62,10 @@ header nav ul {
 }
 
 .main-container .main-content .links-container .lateral-bar{
+    width:10px;
+    height: 1px;
     margin-right:40%;
+    border-top: 1px solid red;
 }
 
 .main-container .main-content .links-container .social-links{
@@ -91,9 +94,9 @@ header nav ul {
     width:90%;
     display:flex;
     justify-content: space-between;
+    /* overflow-x:scroll;
+    overflow-y:hidden; */
 }
-
-
 
 /**********
     work
@@ -101,6 +104,7 @@ header nav ul {
 
 .main-container .main-content .project-container{
     width:85%;
+    height: 100%;
     display:flex;
 }
 
@@ -117,30 +121,45 @@ header nav ul {
 **************/
 
 .project-container .project-description{
-    margin-top:28%;
+    width:12%;
+    display: flex;
+    align-items:flex-end;
+    justify-content: flex-start;
+    overflow: hidden;
+
+}
+
+.project-container .project-description .description{
+    display:flex;
+    transform:rotate(-90deg);
+    margin-bottom:16vh;
 }
 
 .project-container .project-description p{
     font-family: 'Tiempos Headline';
     font-weight:bold;
-    transform:rotate(-90deg);
-    margin-top:100%;
-    margin-left:70%;
-    
+    padding-right:2vh;
 }
 
 .project-container .project-content{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
 }
 
+.project-container .date{
+    display:flex;
+    align-items: center;
+    padding-bottom:40vh;
+}
 .project-container .date p{
+    height: 3vh;
     font-family: 'Tiempos Headline';
     font-weight:bold;
     transform:rotate(90deg);
-    position: relative;
-    top:24%;
+
+
 }
 
 .project-container .project-content img{

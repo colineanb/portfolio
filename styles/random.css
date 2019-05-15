@@ -1,0 +1,72 @@
+*{
+    /* overflow-x: hidden; */
+}
+
+header{
+    width:100vw;
+    height: 70vh;
+}
+header img{
+    width:100vw;
+    height: 70vh;
+}
+
+.title{
+    position: absolute;
+    width:30vw;
+    height: 75vh;
+    left:10%;
+    display:flex;
+    align-items: center;
+}
+
+header h1{
+    font-family: 'Tiempos Headline';
+    font-weight: bold;
+    font-size: 50px;
+    color:white;
+
+}
+
+.description-container{
+    width:100vw;
+    height: 30vh;
+    display:flex;
+    align-items:flex-end;
+    justify-content: center;
+    flex-direction: column;
+    background:#111111;
+}
+
+.content-container{
+    width:80vw;
+    display:flex;
+    align-items: flex-end;
+}
+
+.description-container .content-container h3{
+    font-family: 'Berthold Akzidenz Grotesk', sans-serif;
+    font-weight: 500;
+    color:#6C6C6C;
+    width:30vw;
+    height: 10vh;
+    font-size:18px;
+    display:flex;
+    align-items: center;
+}
+
+
+.text{
+    width:80vw;
+    display:flex;
+    align-items: flex-end;
+}
+
+.text p {
+    width:30vw;
+    height: 10vh;
+    color:white;
+    font-family: 'Berthold Akzidenz Grotesk', sans-serif;
+    display:flex;
+    align-items: center;
+}

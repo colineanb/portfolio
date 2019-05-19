@@ -2,6 +2,28 @@
     /* overflow-x: hidden; */
 }
 
+header nav{
+    position: absolute;
+    width:90%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Berthold Akzidenz Grotesk', sans-serif;
+    font-weight: 300;
+    color:white;
+}
+
+a, ul{
+    text-decoration: none;
+}
+
+header nav ul {
+    width:15%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 header{
     width:100vw;
     height: 70vh;
@@ -30,7 +52,7 @@ header h1{
 
 .description-container{
     width:100vw;
-    height: 30vh;
+    height: 35vh;
     display:flex;
     align-items:flex-end;
     justify-content: center;
@@ -153,6 +175,52 @@ footer .background h3{
     font-family: 'Tiempos Headline';
     font-size: 35px;
     font-weight: 500;
+}
+
+footer .discover-container{
+    width:20vw;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+footer .discover-container .circle{
+    width:4vw;
+    height: 7vh;
+    border-radius: 50%;
+    background:rgba(245, 245, 245, 0.123);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    cursor: pointer;
+}
+
+footer .discover-container .circle:hover{
+    animation: button 1s ease-in-out infinite;
+}
+@keyframes button{
+    50%{transform:scale(1.1)};
+    100%{transform:scale(0)};
+}
+
+footer .background-text .discover{
+    width:7vw;
+    color:white;
+    font-weight: 100;
+    font-size: 18px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .background-text .discover::before{
+    height:5vh;
+    width:0.1vw;
+    background: white;
+    content:"";
+    transform: rotate(-90deg) translateY(-50%);
+    margin-right:8%;
 }
 
 footer .img-container{

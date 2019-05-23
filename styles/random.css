@@ -115,6 +115,12 @@ header h1{
     padding-bottom:4%;
 }
 
+.project .project-title p{
+    font-family: 'Berthold Akzidenz Grotesk', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
 .project .project-background{
     width:80vw;
     background:#EDEFF5;
@@ -123,7 +129,24 @@ header h1{
     padding-top:5%;
     padding-bottom:5%;
 }
+.project .project-background img{
+    width:85%;
+    height: 85%;
+}
 
+.project .project-background .portrait{
+    width:55%;
+    height: 55%;
+}
+
+.project .project-background .mandala{
+    width:50%;
+    height: 50%;
+}
+
+.project .poster-background{
+   background:white;
+}
 /***************
     footer
 ****************/

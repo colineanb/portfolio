@@ -19,5 +19,5 @@ ScrollReveal().reveal('.project-background',
     origin: 'top',
     duration: 1500,
     distance : '50px', 
-    delay : 200, 
+    delay : 100, 
 }, 50);

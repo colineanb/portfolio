@@ -1,7 +1,29 @@
+*{
+    /* overflow-x: hidden; */
+}
+/**********
+    nav
+**********/
+
+a, ul{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    z-index: 9999;
+}
+
+header nav ul {
+    width:15%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 header nav{
     position: absolute;
     width:90%;
+    margin-top:2%;
+    margin-left:5%;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
@@ -21,6 +43,9 @@ header nav ul {
     justify-content: space-between;
 }
 
+/*********
+    header
+*********/
 header{
     width:100vw;
     height: 70vh;

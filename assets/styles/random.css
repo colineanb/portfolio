@@ -1,6 +1,7 @@
-*{
-    /* overflow-x: hidden; */
+*::-webkit-scrollbar { 
+    width: 0 !important 
 }
+
 /**********
     nav
 **********/
@@ -293,7 +294,7 @@ footer .img-container{
     background: linear-gradient(
         rgba(0, 0, 0, 0.45),
         rgba(0, 0, 0, 0.45)
-        ),url(../images/footer.png);
+        ),url(../images/header-hyphen2.png);
 }
 
 footer .img-container img{

@@ -1,6 +1,6 @@
 *{
-  background:#111111;
-  color:rgb(216, 216, 216);
+  background:#F6F3ED;
+  color:#363636;
 }
 /**********
     header
@@ -55,9 +55,12 @@ header nav ul {
 .idkyet{
   width:35vw;
   height: 65vh;
-  background:grey;
 }
 
+.idkyet img{
+  width:100%;
+  height:100%;
+}
 
 /**************
     right side
@@ -87,5 +90,5 @@ header nav ul {
 
 .main-container .right-content .info a {
   font-weight: 500;
-  color: rgb(138, 104, 141);
+  color: #002833;
 }

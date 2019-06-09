@@ -1,3 +1,8 @@
+*::-webkit-scrollbar { 
+    width: 0 !important 
+}
+
+
 header img{
     width: 100vw;
     height: 70vh;
@@ -112,4 +117,13 @@ header img{
     font-weight: bold;
     font-size: 30px;
     padding-bottom:4%;
+}
+
+footer .img-container{
+    width:60vw;
+    height: 35vh;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.45),
+        rgba(0, 0, 0, 0.45)
+        ),url(../images/footer.png);
 }

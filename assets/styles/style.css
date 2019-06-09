@@ -132,7 +132,7 @@ header nav ul {
     padding-bottom: 2%;
     font-family: 'Tiempos Headline';
     font-weight:bold;
-    font-size: 50px;
+    font-size: 46px;
     transition:color 0.7s ease-out;
     /* border:3px solid olive; */
     text-align: start;
@@ -156,7 +156,7 @@ header nav ul {
 .project-description .description{
     display:flex;
     padding-bottom:25%;
-    transform: rotate(-90deg) scaleX(-1)translateY(-90%) translateX(-74%);
+    transform: rotate(-90deg) scaleX(-1)translateY(-90%) translateX(-60%);
 }
 
 .project-description .description p{
@@ -177,7 +177,7 @@ header nav ul {
 .project-description .design{
     display:flex;
     padding-bottom:25%;
-    transform: rotate(-90deg) scaleX(-1)translateY(65%) translateX(-74%);
+    transform: rotate(-90deg) scaleX(-1)translateY(65%) translateX(-40%);
 }
 
 
@@ -381,9 +381,16 @@ header nav ul {
 /*************** 
     responsive
 ****************/
-@media screen and (min-width: 200px) and (max-width: 640px) {
-    .bloc {
-      display:block;
-      clear:both;
+@media screen and (min-width: 200px) and (max-width: 1024px) {
+    .animation-image{
+        display:none;
+    }
+
+    .width-image{
+        display:none;
+    }
+
+    .content-wrapper-animation{
+        display:none;
     }
   }

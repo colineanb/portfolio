@@ -33,8 +33,8 @@ window.addEventListener('mousemove', (_event) =>
     const ratioX = _event.clientX / window.innerWidth - 0.5
     const ratioY = _event.clientY / window.innerHeight - 0.5
     
-    const translateX = 0.008 * ratioX * 150
-    const translateY = 0.008 * ratioY * 150
+    const translateX = - 0.008 * ratioX * 150
+    const translateY = - 0.008 * ratioY * 150
     
     randomContainer.style.transform = `translate(${translateX}%, ${translateY}%)`
     

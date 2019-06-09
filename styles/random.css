@@ -172,6 +172,27 @@ header h1{
 .project .poster-background{
    background:white;
 }
+
+
+/** different background **/
+
+.project .mandala-bg{ 
+    background:#F0E5E9;
+ }
+ 
+.project .error-page{ 
+    background:#EFD5D0;
+ }
+ 
+.project .school{ 
+    background:#B28484;
+ }
+ 
+.project .babymeia{ 
+    background:#7F6A9F;
+ }
+ 
+
 /***************
     footer
 ****************/

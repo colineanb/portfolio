@@ -46,3 +46,4 @@ ScrollReveal().reveal('footer',
     duration: 1500,
     distance : '10px', 
 }, 50);
+

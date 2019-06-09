@@ -94,6 +94,9 @@ header nav ul {
 /**********
     work
 **********/
+.all-projects{
+    display: flex;
+}
 
 .main-container .project-container{
     width:60vw;
@@ -151,6 +154,11 @@ header nav ul {
     display: flex;
     cursor: pointer;
     /* border:3px solid black; */
+}
+
+.project-content .image-date-container img{
+    width:46vw;
+    height: 65vh;
 }
 
 .project-container .container-date{

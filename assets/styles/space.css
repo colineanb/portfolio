@@ -1,0 +1,13 @@
+.project-title a{
+    font-weight: 500;
+    color: #002833;
+}
+
+footer .img-container{
+    width:60vw;
+    height: 35vh;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.45),
+        rgba(0, 0, 0, 0.45)
+        ),url(../images/footer4.png);
+}

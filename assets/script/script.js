@@ -2,18 +2,57 @@
 /**
  * Image Parallax
  */
-let imgContainer = document.querySelector('.image-date-container')
+let  imgContainer = document.querySelector('.image-date-container')
 window.addEventListener('mousemove', (_event) =>
 {
     const ratioX = _event.clientX / window.innerWidth - 0.5
     const ratioY = _event.clientY / window.innerHeight - 0.5
     
-    const translateX = - 0.008 * ratioX * 300
-    const translateY = - 0.008 * ratioY * 300
+    const translateX = - 0.008 * ratioX * 150
+    const translateY = - 0.008 * ratioY * 150
 
     img.style.transform = `translate(${translateX}%, ${translateY}%)`
     
 })
+
+
+window.addEventListener('mousemove', (_event) =>
+{
+    const ratioX = _event.clientX / window.innerWidth - 0.5
+    const ratioY = _event.clientY / window.innerHeight - 0.5
+    
+    const translateX = 0.008 * ratioX * 150
+    const translateY = 0.008 * ratioY * 150
+    
+    typoContainer.style.transform = `translate(${translateX}%, ${translateY}%)`
+    
+})
+
+window.addEventListener('mousemove', (_event) =>
+{
+    const ratioX = _event.clientX / window.innerWidth - 0.5
+    const ratioY = _event.clientY / window.innerHeight - 0.5
+    
+    const translateX = 0.008 * ratioX * 150
+    const translateY = 0.008 * ratioY * 150
+    
+    randomContainer.style.transform = `translate(${translateX}%, ${translateY}%)`
+    
+})
+
+window.addEventListener('mousemove', (_event) =>
+{
+    const ratioX = _event.clientX / window.innerWidth - 0.5
+    const ratioY = _event.clientY / window.innerHeight - 0.5
+    
+    const translateX = 0.008 * ratioX * 150
+    const translateY = 0.008 * ratioY * 150
+    
+    solarContainer.style.transform = `translate(${translateX}%, ${translateY}%)`
+    
+})
+
+
 
 
 /**
@@ -107,6 +146,37 @@ imgrandom.addEventListener('click', () =>
     header.style.display = "none"
     img.style.display = "none"  
     solar.style.display = "none"  
+    typo.style.display = "none"  
+    contentWrapper.classList.add('content-wrapper-animation')
+    setTimeout(function(){
+    blackDescriptionProjet.style.visibility = "visible"
+   }, 1000)
+   
+})
+
+ /**
+  * projet 4
+  */
+
+ let imgSolar = document.querySelector('.solarClick')
+ let solarContainer = document.querySelector('.solarContainer')
+ let containerDate =document.querySelector('.container-date')
+
+imgSolar.addEventListener('click', () =>
+{
+    //delay before redirection
+    setTimeout(function () {
+        window.location.href = "pages/space.html";
+     }, 3000); 
+
+    //animation image
+    solarContainer.classList.add('animation-image')
+    imgSolar.classList.add('width-image')
+    date.style.display = "none"
+    containerDate.style.display = "none"
+    header.style.display = "none"
+    img.style.display = "none"  
+    random.style.display = "none"  
     typo.style.display = "none"  
     contentWrapper.classList.add('content-wrapper-animation')
     setTimeout(function(){

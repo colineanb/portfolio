@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Title</title>
-    <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="stylesheet" href="assets/styles/reset.css">
 </head>
 <body>
     <header>
         <nav>
             <a href="">Coline Animbo</a>
             <ul>
-                <li><a href="" class="about">About</a></li>
+                <li><a href="pages/about.php" class="about">About</a></li>
                 <li><a href="" >Contact</a></li>
             </ul>
         </nav>
@@ -37,7 +37,7 @@
                  <div class="project-content">
                      <h1>Hyphen</h1>
                      <div class="image-date-container">
-                        <img src="images/header-hyphen.png" alt="">
+                        <img src="assets/images/header-hyphen.png" alt="">
                         <div class="container-date">
                                 <div class="date">
                                     <p>2018</p>
@@ -56,7 +56,7 @@
                  <div class="project-content">
                      <h1>Misplaced series</h1>
                      <div class="image-date-container">
-                        <img src="images/misplaced.jpg" alt="">
+                        <img src="assets/images/misplaced.jpg" alt="">
                         <div class="container-date">
                                 <div class="date">
                                     <p>2018</p>
@@ -75,7 +75,7 @@
                      <div class="project-content">
                          <h1>Random stuffs</h1>
                          <div class="image-date-container">
-                            <img src="images/header1.png" alt="">
+                            <img src="assets/images/header1.png" alt="">
                             <div class="container-date">
                                     <div class="date">
                                         <p>2018</p>
@@ -104,7 +104,7 @@
         </div>
     </div>
     <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="script/scroll.js"></script>
-    <script src="script/script.js"></script>
+    <script src="assets/script/scroll.js"></script>
+    <script src="assets/script/script.js"></script>
 </body>
 </html>

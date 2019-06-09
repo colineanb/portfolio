@@ -154,11 +154,15 @@ header nav ul {
     display: flex;
     cursor: pointer;
     /* border:3px solid black; */
+    transition: width 4s;
+    transform-origin: center;
 }
 
 .project-content .image-date-container img{
     width:46vw;
     height: 65vh;
+    transition: width 4s;
+    transform-origin: center;
 }
 
 .project-container .container-date{
@@ -192,20 +196,21 @@ header nav ul {
     position: absolute;
     left:0;
     margin:0;
+    transform-origin: center;
     z-index: 999;
     animation : image-move 3s ease forwards;
 }
 
 @keyframes image-move{
-    0%{transform:translateY(0%);}
-    60%{transition: transform 3s ease; transform:scale(1.4);}
-    100%{transition: transform 4s ease; transform: translateY(-120px);}
+    0%{transform:translateY(0%); transform-origin: center;}
+    60%{transition: transform 3s ease; transform:scale(1.1); transform-origin: center;;}
+    100%{transition: transform 4s ease; transform: translateY(-60px);transform-origin: center;}
 }
 
 .width-image{
-    width: 500vw;
-    height: 70vh;
-    object-fit: cover; 
+    width: 100vw;
+    height: 120vh;
+    animation : image-move 3s ease forwards;
 }
 
 /**************************************

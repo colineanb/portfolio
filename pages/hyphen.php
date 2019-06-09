@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Coline Animbo - Hyphen </title>
-    <link rel="stylesheet" href="../styles/reset.css">
-    <link rel="stylesheet" href="../styles/random.css">
-    <link rel="stylesheet" href="../styles/hyphen.css">
+    <link rel="stylesheet" href="assets/styles/reset.css">
+    <link rel="stylesheet" href="assets/styles/random.css">
+    <link rel="stylesheet" href="assets/styles/hyphen.css">
 </head>
 <body>
     <header>
         <nav>
-           <a href="../index.html">Coline Animbo</a>
+           <a href="pages/index.php">Coline Animbo</a>
             <ul>
                 <li><a href="" class="about">About</a></li>
                 <li><a href="" >Contact</a></li>
@@ -21,7 +21,7 @@
         <div class="title">
             <h1>Hyphen Project</h1>
         </div>
-        <img src="../images/header-hyphen.png" alt="">
+        <img src="assets/images/header-hyphen.png" alt="">
     </header>
     <div class="description-container">
         <div class="container-content"></div>
@@ -47,7 +47,7 @@
             <p>In a group of three we had to find a kickstarter project that didn't have a website yet. We chose hyphen because we liked their product and it inspired us. Hyphen earbuds are wireless, with touch control. We wanted to do something intuitive for the user to push him to purchase, that's why we find on our home all the features of the headphones with buttons that redirect to the product pages.  </p>
         </div>
         <div class="project-background">
-            <img src="../images/home-hyphen.png" alt="">
+            <img src="assets/images/home-hyphen.png" alt="">
         </div>
     </div>
     <div class="content-description">
@@ -57,11 +57,11 @@
         </div>
     </div>
     <div class="project-background hyphen-colors">
-            <img src="../images/color-hyphen.png" alt="">
+            <img src="assets/images/color-hyphen.png" alt="">
     </div>
     <div class="project">
         <div class="project-background">
-                <img src="../images/faq-hyphen.png" alt="">
+                <img src="assets/images/faq-hyphen.png" alt="">
         </div>
     </div>
     <div class="content-description-2">
@@ -71,17 +71,17 @@
     </div>
     <div class="project">
         <div class="project-background">
-            <img src="../images/all-hyphen.png" alt="">
+            <img src="assets/images/all-hyphen.png" alt="">
         </div>
     </div>  
     <div class="project">
         <div class="project-background ">
-            <img src="../images/payment-hyphen.png" alt="">
+            <img src="assets/images/payment-hyphen.png" alt="">
         </div>
     </div>
     <div class="project">
         <div class="project-background">
-            <img src="../images/thanks-hyphen.png" alt="">
+            <img src="assets/images/thanks-hyphen.png" alt="">
         </div>
     </div>        
     <footer>
@@ -93,7 +93,7 @@
                     <button class="bar"></button>
                     <p class="discover">Découvrir</p>
                     <div class="circle">
-                        <img src="../images/arrow.svg" alt="">
+                        <img src="assets/images/arrow.svg" alt="">
                     </div>
                 </div>
             </div>
@@ -103,6 +103,6 @@
         </div>
     </footer>
     <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="../script/scroll.js"></script>
+    <script src="../assets/script/scroll.js"></script>
 </body>
 </html>

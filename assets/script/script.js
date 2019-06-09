@@ -36,7 +36,7 @@ imgContainer.addEventListener('click', () =>
 
     //delay before redirection
     setTimeout(function () {
-        window.location.href = "pages/hyphen.html";
+        window.location.href = "hyphen.php";
      }, 3000); 
 
     //animation image

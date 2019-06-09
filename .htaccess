@@ -1,0 +1,9 @@
+RewriteEngine On
+
+RewriteRule ^about-me|a-propos|about$ ./pages/about.php
+RewriteRule ^hyphen$ ./pages/hyphen.php
+RewriteRule ^typography|misplaced-series$ ./pages/typography.php
+RewriteRule ^$ ./pages/index.php
+RewriteRule ^random$ ./pages/random.php
+
+

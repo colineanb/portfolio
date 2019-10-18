@@ -345,7 +345,7 @@ header nav ul {
     cursor
 ****************/
 
-/* .cursor {
+.cursor {
     position: absolute;
     z-index: 999;
     pointer-events: none;
@@ -353,12 +353,17 @@ header nav ul {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background: #313131;
+    background: #363636;
     transition-property: color;
     transition-duration: 1s;
     transition-timing-function: cubic-bezier(0.13, 1.04, 0.74, 1.07);
 }
 
+.cursor.is-hold {
+    background-color: #fff;
+    width: 7px;
+    height: 7px;
+}
 
 .cursor-around {
     position: absolute;
@@ -368,15 +373,17 @@ header nav ul {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    border: 1px solid #313131;
+    border: 1px solid #363636;
     background:none;
     transition-duration: 1s;
     transition-timing-function: cubic-bezier(0.13, 1.04, 0.74, 1.07);
 }
 
- */
-
-
+.cursor-around.is-hold {
+    width: 30px;
+    height: 30px;
+    background-color: #6b6b6b;
+}
 
 /*************** 
     responsive
